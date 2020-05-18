@@ -1,0 +1,44 @@
+{
+  "name": "week03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "minimist": "^1.2.5",
+    "node-sass": "^4.13.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 5%",
+    "ie 10"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
