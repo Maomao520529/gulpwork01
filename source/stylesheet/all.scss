@@ -1,9 +1,12 @@
 @import "functions";
 @import "helpers/variables";
 @import "helpers/reset";
+@import "helpers/theme-color";
 // @import "bootstrap";
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
 
 
 @import "custom/index";
+@import "custom/content";
+@import "custom/footer";

@@ -1,0 +1,162 @@
+//footer
+.footer {
+    height: 360px;
+    background: $cornField; 
+  }
+  
+  .jc-sb {
+    justify-content: space-between;
+  }
+  .ai-c {
+    align-items: center; }
+    .f-link {
+      padding-top: 2.25rem;
+      margin-bottom: 1.125em;
+     }
+     .f-link .menu li {
+      margin-right: 3rem;
+    }
+    .f-link .menu li a {
+      text-decoration: none;
+      color: $zeus;
+      padding: 0.5rem;
+      &:hover {
+        background-color: $milan;
+        border-bottom: 1px dashed $dimGray;
+      }
+    }
+  
+    .follow li {
+      margin-left: 2rem; 
+    }
+      .follow li a {
+        text-decoration: none;
+        color: #3f3f3e;
+      }
+  
+      .info {
+      font-size: 2.25rem; 
+     
+    }
+    .phone , .mail {
+      align-items: center;
+    }
+    .phone li , .mail li {
+      padding: 0 5px;
+    }
+   
+    .phone {
+      margin-bottom: 1rem;
+      color: $zeus;
+    }
+    
+     .phone img {
+        margin-right: 23px; 
+      }
+  
+      .mail {
+      margin-bottom: 1.5rem;
+      color: $zeus; 
+    }
+  
+    .mail img {
+        margin-right: 12px; 
+      }
+  
+      hr {
+        color: $zeus;
+      margin-bottom: 1.5rem; 
+    }
+    .copyRight {
+      color: $zeus;
+    }
+    .copyRight img {
+      margin-right: 2.375rem; 
+  
+    }
+  
+    .privacy a {
+      margin-left: 3rem;
+      text-decoration: none;
+      color: $zeus;
+    }
+  
+      @media (max-width: 1200px) {
+        .footer{
+          height: 300px;
+          position: relative;
+        }
+       .menu li a{
+        font-size: 13px;
+       }
+      
+       
+       .phone , .mail {
+        font-size: 18px;
+        align-items: center;
+      }
+  
+      .phone li , .mail li {
+        padding: 0 5px;
+      }
+  
+      
+       .copyRight {
+        color: $zeus;
+       }
+      
+       .privacy a{
+         text-decoration: none;
+         color: $zeus;
+         line-height: 1.5;
+       }
+      } 
+  
+      @media (max-width: 768px) {
+        .footer{
+          height: 300px;
+          position: relative;
+        }
+       .menu {
+         display: none;
+       }
+       .follow{
+        padding-left: 10px;
+       }
+       .info {
+         position: absolute;
+         top: 35px;
+       }
+       
+       .phone , .mail {
+        font-size: 18px;
+        align-items: center;
+      }
+  
+      .phone li , .mail li {
+        padding: 0 5px;
+      }
+  
+       hr {
+         margin-top: 5rem;
+       }
+       .copyRight {
+        color: $zeus;
+       }
+       .privacy {
+         position: absolute;
+         margin:3rem -2.5rem;
+        flex-direction: column;
+     
+       }
+       .copyRight img {
+        position: absolute;
+        right: 20px;
+        bottom: 3rem;
+      }
+       .privacy a{
+         text-decoration: none;
+         color: $zeus;
+         line-height: 1.5;
+       }
+      } 

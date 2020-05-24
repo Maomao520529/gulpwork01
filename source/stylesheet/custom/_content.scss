@@ -1,0 +1,959 @@
+/* banner */
+.banner {
+    background-image: url(https://i.postimg.cc/1zvtNHvt/toa-heftiba-01.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+    .container {
+      padding: 0 12px;
+      height: 100%;
+      .banner-title {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 3.5rem;
+        line-height: 1.2;
+      }
+    }
+  }
+  .slogan {
+    font-size: 64px;
+    color: $charcoal;
+    padding: 0 4rem;
+    font-weight: 500;
+    text-align: right;
+    background: $gainsboro;
+    
+  }
+  .slogan-sm {
+    font-size: 36px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .banner {
+      background-image: url(https://i.postimg.cc/1zvtNHvt/toa-heftiba-01.jpg);
+      height: 900px;
+      background-size: cover;
+      background-position: center center;
+      .container {
+        max-width: 1224px;
+        margin: 0 auto;
+        padding: 0 12px;
+        height: 100%;
+        .banner-title {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding: 0 3.5rem;
+          line-height: 1.2;
+        }
+      }
+    }
+    .slogan {
+      font-size: 60px;
+      // color: #464444;
+      padding: 0 3rem;
+      font-weight: 500;
+      text-align: right;
+      // background: #e0e0e0d8;
+      
+    }
+    .slogan-sm {
+      font-size: 36px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .banner {
+      background-image: url(https://i.postimg.cc/25Gq7mSC/toa-heftiba-small.jpg);
+      height: 495px;
+    }
+    .slogan {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 0 2rem;
+    }
+    .slogan-sm {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .banner {
+      background-image: url(https://i.postimg.cc/25Gq7mSC/toa-heftiba-small.jpg);
+      height: 495px;
+    }
+    .slogan {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 0 1.2rem;
+    }
+    .slogan-sm {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .banner {
+      background-image: url(https://i.postimg.cc/25Gq7mSC/toa-heftiba-small.jpg);
+      height: 395px;
+    }
+    .slogan {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 35px;
+      padding: 0 1.2rem;
+    }
+    .slogan-sm {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+  
+  /* feature */
+  .container{
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  @media screen and (max-width: 992px){
+    .container{
+      max-width: 672px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .container{
+      max-width: 352px
+    }
+  }
+  
+  .feature{
+    padding: 64px 0;
+    background-color: $cornField;
+  }
+  @media screen and (max-width: 992px){
+    .feature{
+      padding: 40px 0;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .feature{
+      padding: 32px 0;
+    }
+  }
+  
+  .feature h2,
+  .feature h3,
+  .feature p{
+    line-height: 1.5em;
+  }
+  .feature h2,
+  .feature h3{
+    color: $maroon;
+  }
+  .feature h2{
+    margin-bottom: 44px;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  @media screen and (max-width: 992px){
+    .feature h2{
+      margin-bottom: 12px;
+      font-size: 32px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .feature h2{
+      margin-bottom: 12px;
+      font-size: 24px;
+      line-height: 2em;
+    }
+  }
+  
+  .feature h3{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .feature p{
+    font-size: 16px;
+  }
+  
+  .feature h2,
+  .cards{
+    text-align: center;
+  }
+  .card-inside,
+  .cards{
+    display: flex;
+  }
+  .cards{
+    padding: 16px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media screen and (max-width: 992px){
+    .cards{
+      padding: 16px 0;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .cards{
+      padding: 0 0 16px 0;
+    }
+  }
+  
+  .card-inside{
+    padding: 16px 0 24px;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  @media screen and (max-width: 992px){
+    .card-inside{
+      padding: 20px 0 8px;
+      width: 50%
+    }
+  }
+    @media screen and (max-width: 767px){
+      .card-inside{
+        padding: 20px 0 8px;
+        width: 100%;
+        max-width: 352px;
+      }
+  }
+  .card-inside .imgWrap{
+    height: 100px;
+    padding-bottom: 40px; 
+  }
+  @media screen and (max-width: 992px){
+    .card-inside .imgWrap{
+      padding-bottom: 16px; 
+    }
+  }
+  @media screen and (max-width: 768px){
+      .card-inside .imgWrap{
+        padding-bottom: 16px; 
+      }
+  }
+  .imgWrap img{
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  .card-inside h3{
+    padding-bottom: 4px;
+  }
+  @media screen and (max-width: 992px){
+    .card-inside h3{
+      padding-bottom: 8px;
+    }
+  }
+    @media screen and (max-width: 768px){
+      .card-inside h3{
+        padding-bottom: 4px;
+    }
+  }
+  
+  
+  .card-inside p{
+    text-align: left;
+    max-width: 208px;
+  }
+  @media screen and (max-width: 992px){
+    .card-inside p{
+      max-width: 224px;
+    }
+  }
+  @media screen and (max-width: 992px){
+    // order 針對子元素去設定它的排列順序。
+    .order-1{
+      order: 4;
+    }
+    .order-2{
+      order: 3;
+    }
+    .order-3{
+      order: 2;
+    }
+    .order-4{
+      order: 1;
+    }
+  }
+  
+  // classic 
+  .margin-b{
+    margin-bottom: 32px;
+  }
+  .h2-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: $maroon;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .classic{
+    padding: 64px 0 80px 0;
+  }
+  .classic-optical, .classic-functional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .classic-sunglasses{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .classic-photo{
+    width: 792px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .optical-photo{
+    background-image: url(https://i.postimg.cc/26WWK7BJ/clarissa-watson.jpg);
+    margin-right: 24px;
+    &:hover {
+      background-image: url(https://i.postimg.cc/3xbf0qkm/massimo-adami-s.jpg);
+    }
+  }
+  .sunglasses-photo{
+    background-image: url(https://i.postimg.cc/B6vS8SJC/sandeep-kashyap.jpg);
+    margin-left: 24px;
+    &:hover {
+      background-image: url(https://i.postimg.cc/6pdLt1dB/michelle-tsang-s.jpg);
+    }
+  }
+  .functional-photo{
+    background-image: url(https://i.postimg.cc/nzsLRFNh/jenni-miska.jpg);
+    margin-right: 24px;
+    &:hover {
+      background-image: url(https://i.postimg.cc/26TZ3s6f/american-heritage-chocolate-s.jpg);
+    }
+  }
+  .product-name{
+    display: flex;
+  }
+  .classic-icon{
+    width: 48px;
+    margin-right: 8px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .hot{
+    background-image: url(https://i.postimg.cc/DyXd8sfB/Enthusiasm-hot.png);
+  }
+  .heart{
+    background-image: url(https://i.postimg.cc/sgJg4pYV/Optimism-sincere.png);
+  }
+  .hope{
+    background-image: url(https://i.postimg.cc/N08ZZ4Nn/hope.png);
+  }
+  .classic-text{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 72px;
+    font-style: italic;
+    color: $freeSpeechRed;
+  }
+  @media(max-width: 992px){
+    .h2-title{
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 32px;
+    }
+    .margin-b{
+      margin-bottom: 8px;
+    }
+    .classic{
+      padding: 40px 0 40px 0;
+    }
+    .classic-optical, .classic-functional{
+      justify-content: flex-start;
+      margin-left: 5%;
+    }
+    .classic-sunglasses{
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-left: 5%;
+    }
+    .sunglasses-photo{
+      margin-left: 0px;
+      margin-right: 24px;
+    }
+    .classic-photo{
+      max-width: 411px;
+      max-height: 168px;
+    }
+    .product-name{
+      width: 45%;
+      justify-content: center;
+    }
+    .classic-icon{
+      max-width: 32px;
+    }
+    .classic-text{
+      font-size: 32px;
+      line-height: 42px;
+    }
+  }
+  @media(max-width: 767px){
+    .h2-title{
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    .classic{
+      padding: 24px 0 24px 0;
+    }
+    .classic-photo{
+      display: none;
+    }
+    .classic-optical{
+      background-image: url(https://i.postimg.cc/rFWjhpZn/clarissa-watson-gray.jpg);
+      &:hover {
+        background-image: url(https://i.postimg.cc/XJwrtXmL/massimo-adami-gray.jpg);
+      }
+    }
+    .classic-sunglasses{
+      background-image: url(https://i.postimg.cc/MHfC38g7/sandeep-kashyap-gray.jpg);
+      &:hover {
+        background-image: url(https://i.postimg.cc/8cN7GNVS/michelle-tsang-gray.jpg);
+      }
+    }
+    .classic-functional{
+      background-image: url(https://i.postimg.cc/5twjGhWM/jenni-miska-gray.jpg);
+      &:hover {
+        background-image: url(https://i.postimg.cc/Wz8hbC2J/american-heritage-chocolate-gray.jpg);
+      }
+    }
+    .classic-m{
+      height: 134px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    .classic-optical, .classic-functional{
+      justify-content: center;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    .classic-sunglasses{
+      justify-content: center;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    .product-name{
+      width: 100%;
+    }
+    .classic-text{
+      color: $cornField;
+    }
+    .hot{
+      background-image: url(https://i.postimg.cc/tgTzRcsV/Enthusiasm-hot-yellow.png);
+    }
+    .heart{
+      background-image: url(https://i.postimg.cc/nVQVP84S/Optimism-sincere-love.png);
+    }
+    .hope{
+      background-image: url(https://i.postimg.cc/dQ7cV8Dh/hope-love-yellow.png);
+    }
+  }
+  
+  
+  //others
+  .d-flex {
+    display: flex;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+   /* others */
+  .others {
+    background-image: url(https://i.postimg.cc/2jZtShnS/kim-daniels.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 10px;
+    
+  }
+  .others h2 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 72px;
+    color: $maroon;
+    text-align: center;
+    padding: 5rem;
+    
+  }
+  .others-list li:first-child {
+    margin-bottom: 3.75rem;
+  }
+  
+  .others-list-item-brand {
+    position: relative;
+  }
+  
+  .others-list span {
+    font-size: 72px;
+    color: $freeSpeechRed;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    white-space: nowrap;
+  }
+  
+  .more {
+    align-items: flex-end;
+  }
+  
+  .more span::before {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+  }
+  
+  .more span:hover::before {
+    transform: translateY(-85px);
+    opacity: .7;
+  }
+  
+  .more span::after {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+  }
+  
+  .more span:hover::after {
+    transform: translateY(-145px);
+    opacity: .4;
+  }
+  
+  .more-img {
+    position: relative;
+    height: 100%;
+    display: flex;
+    max-width: 50%;
+    transition: all .65s .3s;
+    transform: translateX(0px);
+    margin-right: 85px;
+  }
+  .more-img::after {
+    content: "";
+    position: absolute;
+    background: white;
+    top: 8%;
+    bottom: 8%;
+    left: 10%;
+    right: -85px;
+  }
+  .more-img span{
+    margin-left: 25px;
+  }
+  
+  
+  .more-img:hover img:last-child {
+    transform: translateX(15px);
+  }
+  
+  
+  @media(max-width:768px) {
+    .others {
+      background-size: cover;
+      padding: 10px;
+    }
+    .others h2 {
+      font-size: 28px; 
+      padding: 0; 
+    }
+    .more-img {
+      max-width: 20%;
+    }
+    .more-img span{
+     font-size: 32px;
+     line-height: 2;
+    }
+    .arrow {
+      max-width: 35%;
+    }
+  }
+  
+  @media(max-width:414px) {
+    .others h2 {
+      font-size: 32px; 
+      padding: 20px; 
+    }
+    .more-img {
+      max-width: 20%;
+    }
+    .more-img span{
+     font-size: 24px;
+     line-height: 5;
+    }
+    .arrow {
+      max-width: 40%;
+    }
+  }
+  @media(max-width:375px) {
+    .more-img {
+      max-width: 20%;
+    }
+    .more-img span{
+     font-size: 24px;
+     line-height: 5;
+    }
+    .arrow {
+      max-width: 40%;
+    }
+  }
+  
+  .mr-1 {
+    margin-right: 8px;
+  }
+  .mb-1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .chooseProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25rem;
+  }
+  .chocolaty{
+    margin: 0 20px;
+    position: relative;
+  }
+  .chocolaty:before {
+    content: "CHOCOLATY";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $freeSpeechRed;
+    font-size: 64px;
+    font-weight: bold;
+  }
+  
+  .creamy {
+    margin: 0 20px;
+    position: relative;
+  }
+  .creamy:before {
+    content: "CREAMY";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $freeSpeechRed;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  
+  .bg {
+    filter:grayscale(0.5) blur(0.6px);
+    transition: all 0.5s;
+    position: relative;
+    }
+    .bg:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      background-color: hsla(0, 0%, 100%, 0.25);
+      transition: all 0.3s;
+      transform: scale(0.5,0.5);
+      }
+      .bg:hover:after{
+      opacity: 1 ;
+      transform: scale(1,1);
+      }
+  
+       @media(max-width:768px) {
+        .chooseProduct {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .chocolaty {
+          margin: 20px 0;
+        }
+        .chocolaty:before {
+          font-size: 58px;
+        }
+        .creamy {
+          margin: 20px 0;
+        }
+      }
+  
+      @media(max-width:414px) {
+        .chooseProduct {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .chocolaty:before {
+          font-size: 58px;
+        }
+      }
+  
+  
+  // 顧客推薦 customer
+  .customer {
+    height: 600px;
+    margin-top: -200px;
+  }
+  
+  .customer h2{
+    margin-top: -300px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: $maroon;
+    text-align: center;
+  
+  }
+  
+  .customer-msg {
+    margin: 20px 20px;
+      p {
+        margin: 20px 0;
+      }
+      span {
+        color: $black;
+      }
+  }
+  
+  .card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px; 
+  }
+  .card-container {
+    width: 324px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 20px  0;
+    perspective: 400px;
+  }
+  
+  .cover, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform .25s ease-in-out;
+    border-radius: .4rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .18);
+    text-shadow: 0 .15rem .2rem rgba(0, 0, 0, .2);
+  }
+  .cover {
+    transform: rotatey(0deg);
+    background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+  }
+  .card-container:hover .cover {
+    transform: rotatey(180deg);
+  }
+  .back {
+    transform: rotatey(-180deg);
+    background-image: linear-gradient( 101.9deg,  rgba(253,183,220,1) 25%, rgba(240,213,190,1) 38.1%, rgba(249,240,206,1) 55.5%, rgba(253,244,210,1) 67.3%, rgba(222,248,226,1) 85.2%, rgba(200,247,242,1) 103.6% );
+  }
+  .card-container:hover .back {
+    transform: rotatey(0deg);
+  }
+  
+  
+  @media(max-width:992px) {
+    .card {
+      display: flex;
+      flex-wrap: wrap; 
+    }
+  }
+  
+  @media(max-width:768px) {
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media(max-width:560px) {
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  //聯絡我們 contact
+  .contact {
+    padding-bottom: 5rem;
+    background-color: rgba(245, 244, 212, 0.494);
+  }
+  
+  .sectionTitle {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+  }
+  
+  .contactText {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    padding: 12px 0;
+    border: 1px solid $black;
+    background-color: transparent;
+  }
+  
+  textarea {
+    resize: none;
+    height: 136px;
+  }
+  
+  ::placeholder, input[type="submit"], lebal {
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  input[type="checkbox"] + label {
+    display: block;
+    cursor: pointer;
+    padding-left: 4px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label::before {
+    content: "\2714";
+    border: 1px solid $black;
+    border-radius: 10%;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 1px 0 1px 3px;
+    margin-right: 8px;
+    color: transparent;
+  }
+  
+  input[type="checkbox"]:checked + label:before {
+    background-color: $yellow;
+    border-color: $cornField;
+    color: $white;
+  }
+  
+  .submit {
+    margin-top: 42px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    padding: 16px 58px;
+    cursor: pointer;
+    border: none;
+    background: $cornField;
+    color: $zeus;
+  }
+  
+  input[type="submit"]:hover {
+    background: $milan;
+  }
+  
+  @media (max-width: 992px) {
+    .contact {
+      margin: 30rem 0 0 0;
+    }
+    .sectionTitle {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      font-size: 34px;
+    }
+   label {
+      line-height: 1.3;
+    }
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width:768px) {
+    .contact {
+      margin: 30rem 0 0 0;
+    }
+    
+    .sectionTitle {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      font-size: 34px;
+    }
+   label {
+      line-height: 1.3;
+    }
+  }
+  @media (max-width:665px) {
+    .contact {
+      margin: 80rem 0 0 0;
+    }
+  }
+  @media (max-width:560px) {
+    .contact {
+      margin: 80rem 0 0 0;
+    }
+    label {
+      line-height: 1.5;
+    }
+  }
+  @media (max-width:414px) {
+    .contact {
+      margin: 80rem 0 0 0;
+    }
+  }
